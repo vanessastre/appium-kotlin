@@ -39,7 +39,7 @@ open class TestBase {
         capabilities.setCapability("automationName", "UiAutomator2")
         capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.ANDROID)
         capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Pixel5a")
-        capabilities.setCapability(MobileCapabilityType.APP, "$path\\OneDrive\\Documentos\\GitHub\\appium-kotlin\\src\\test\\kotlin\\resources\\General-Store.apk")
+        capabilities.setCapability(MobileCapabilityType.APP, "$path\\OneDrive\\Documentos\\GitHub\\appium-kotlin\\src\\test\\kotlin\\resources\\SauceLabsDemoApp.apk")
 
         driver = AndroidDriver<AndroidElement>(URL("http://0.0.0.0:4723/wd/hub"), capabilities)
 
